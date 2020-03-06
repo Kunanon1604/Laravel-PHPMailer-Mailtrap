@@ -27,7 +27,7 @@ class MailController extends Controller
 		$mail->setFrom('info@example.com', 'Someone');
 
 		//กำหนดอีเมลที่อยู่ผู้รับ
-        $mail->addAddress('xxxxxxxxxxxxxx@inbox.mailtrap.io');
+        $mail->addAddress('test@example.com');
 
 		//หัวข้อ
 		$mail->Subject = 'Laravel PHPMailer with Mailtrap';
